@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bendingcardRight {
+  clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);
+}
+
+.bendingcardLeft {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 7% 100%);
+}
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.filterImage {
+  filter: grayscale(100%);
+}
